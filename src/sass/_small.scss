@@ -1,0 +1,113 @@
+//MEDIA MAX-WIDTH <<<<<<<<-------->>>>>>>>
+
+@media (max-width: 576px) {
+	.footer {
+		.footer__boxes {
+			padding: 1em;
+			.footer__box {
+				margin: 2em auto;
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+
+
+
+
+//MEDIA MIN-WIDTH <<<<<<<<-------->>>>>>>>
+
+@media (min-width: 576px) {
+	.hero__text {
+		font-size: 17px;
+	}
+
+	.aboutus {
+		&__text {
+			&-h3 {
+				text-align: center;
+			}
+		}
+	}
+
+	.offers {
+		&__box {
+			height: 380px;
+
+			&-text {
+				p {
+					font-size: 17px;
+				}
+
+				i {
+					font-size: 15px;
+				}
+			}
+		}
+	}
+
+	.contact {
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+	}
+
+	.form {
+		.form__main {
+			background-color: #fff;
+			transform: scale(0.8);
+			box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+
+			input {
+				font-size: 18px;
+			}
+
+			.form-box {
+				span,
+				i {
+					font-size: 18px;
+				}
+			}
+		}
+
+		.popup {
+			height: 300px;
+			width: 85%;
+
+			p {
+				font-size: 18px;
+			}
+
+			.close-btn {
+				width: 30%;
+				padding: 1em;
+				margin: 2em;
+			}
+		}
+	}
+	.footer {
+		.footer__boxes {
+			margin-bottom: -3em;
+		}
+	}
+
+	//PODSTRONA-MEDIA MIN-WIDTH (576px) <<<<<----->>>>>
+
+	main {
+		.aboutus__icon {
+			display: flex;
+			width: 40%;
+			left: 2em;
+			bottom: 1em;
+		}
+	}
+	.aboutus__subpage {
+		height: 60vh;
+
+		.aboutus__subpage-text {
+			.aboutus__subpage-p {
+				font-size: 14px;
+			}
+		}
+	}
+}

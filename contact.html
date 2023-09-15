@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Raleway:wght@300;400;500;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<link rel="stylesheet" href="dist/css/style.min.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://kit.fontawesome.com/df0853e9c0.js" crossorigin="anonymous"></script>
+</head>
+<nav id="navId">
+    <div class="nav">
+      <i class="fa-solid fa-tree icon__text-block"><a href="index.html"><span class="icon__text-block">
+            Forest</span></a></i>
+      <a class="nav-link " href="index.html"><i class="fa-solid fa-house"></i>Home</a>
+      <hr>
+      <a class="nav-link " href="index.html"><i class="fa-solid fa-circle-info"></i>O nas</a>
+      <hr>
+      <a class="nav-link" href="page.html"><i class="fa-solid fa-dollar-sign"></i>Oferta</a>
+      <hr>
+      <a class="nav-link active" href="contact.html"><i class="fa-solid fa-phone"></i>Kontakt</a>
+    </div>
+  
+    <div class="burger__btn">
+      <i class="fa-solid fa-bars"></i>
+    </div>
+  
+    <div class="icon__mobile-tree">
+      <i class="fa-solid fa-tree icon__text-block"><a href="index.html"><span class="icon__text-block">
+            Forest</span></a></i>
+    </div>
+  </nav>
+
+
+<section class="contact">
+    <div class="contact__text">
+        <h1>Kontakt:</h1>
+        <h2>Park Forest</h2>
+        <p>ul, parkowa 15, 000-000 Zielona góra</p>
+
+        <div class="contact__text-two">
+            <h2>Rezerwacja bilety</h2>
+            <p>+15-777-888-555</p>
+            <p>+15-777-888-555</p>
+            <p>forest@gmail.com</p>
+        </div>
+        <div class="contact__text-two">
+            <h2>Rezerwacja ognisko</h2>
+            <p>+15-888-666-999</p>
+            <p>+15-888-666-999</p>
+            <p>forest@gmail.com</p>
+
+        </div>
+    </div>
+
+    <iframe class="google__maps"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2559.846234066179!2d19.892022776130407!3d50.089165713311864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165a32728962db%3A0x4344067c5fa03761!2sJasnog%C3%B3rska%202%2C%2031-358%20Krak%C3%B3w!5e0!3m2!1spl!2spl!4v1693585112730!5m2!1spl!2spl"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+
+<form class="form">
+    <div class="form__main">
+        <div class="form__text">
+            <h3>Formularz kontaktowy</h3>
+        </div>
+
+
+        <div class="form-box">
+            <label for="username"><i class="fa-solid fa-user"></i><span>Imię i nazwisko</span></label>
+            <input type="text" id="username" placeholder="Podaj imię i nazwisko" required>
+            <p class="error-text">error</p>
+
+
+        </div>
+
+        <div class="form-box">
+            <label for="email"><i class="fa-solid fa-envelope"></i><span>Adres e-mail</span></label>
+            <input type="email" id="email" placeholder="Wpisz adres e-mail">
+            <p class="error-text">error</p>
+
+
+        </div>
+
+        <div class="form-box">
+            <label for="number"><i class="fa-solid fa-phone"></i><span>Telefon</span> </label>
+            <input type="number" id="number" placeholder="Wpisz numer telefonu">
+            <p class="error-text">error</p>
+
+        </div>
+
+        <label for="msg">Treść wiadomości:</label>
+
+        <div class="text-area">
+            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Wpisz treść wiadomości..."></textarea>
+        </div>
+
+
+        <button class="btn-send">Wyślij</button>
+
+    </div>
+    <div class="popup">
+        <p>Formularz został poprawnie wysłany!</p>
+        <button class="close-btn">Zamknij</button>
+    </div>
+</form>
+
+
+<footer class="footer">
+    <p class="footer__bottom-text"> &copy; <span class="footer__year"></span> Forest Group Company Ltd.
+    </p>
+</footer>
+
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <script src="dist/js/main.min.js"></script>
+</body>
+
+</html>

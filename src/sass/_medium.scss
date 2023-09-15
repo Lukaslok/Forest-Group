@@ -1,0 +1,119 @@
+@media (max-width: 768px) {
+	.header {
+		&__img {
+			background-position: center;
+		}
+		&__text {
+			&-h1 {
+				font-size: 22px;
+			}
+
+			&-p {
+				font-size: 20px;
+			}
+		}
+	}
+}
+
+
+@media (min-width: 768px) {
+	.section-heading {
+		font-size: 3rem;
+	}
+	.header {
+		&__text {
+			&-h1 {
+				font-size: 30px;
+			}
+
+			&-p {
+				font-size: 25px;
+			}
+		}
+	}
+
+	.offers {
+		.text-heading {
+			font-size: 20px;
+		}
+		.offer {
+			display: flex;
+			justify-content: center;
+			flex-wrap: wrap;
+		}
+
+		&__box {
+			margin: 1.2em;
+
+			&-title {
+				margin-top: 0;
+			}
+
+			.btn {
+				width: 70%;
+			}
+		}
+
+		.text__second-page {
+			font-size: 13px;
+
+			a {
+				font-size: 14px;
+			}
+		}
+	}
+
+	.aboutus {
+		&__text {
+			&-p {
+				text-align: center;
+			}
+		}
+	}
+
+	//PODSTRONA-MEDIA MIN-WIDTH (768px) <<<<<----->>>>>
+
+	.header__subpage {
+		.header__subpage-text {
+			h1 {
+				color: #0ec771;
+				font-size: 25px;
+			}
+
+			p {
+				font-size: 15px;
+			}
+		}
+	}
+
+	.offers__subpage-main {
+		width: 100%;
+
+		.offers__subpage-img {
+			display: flex;
+			flex-direction: row;
+
+			&--right {
+				order: 1;
+			}
+
+			img {
+				width: 50%;
+			}
+		}
+		.offers__subpage-text {
+			display: flex;
+			width: 50%;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+
+			.offers__subpage-h2 {
+				font-size: 20px;
+			}
+			.offers__subpage-p {
+				font-size: 15px;
+			}
+		}
+	}
+}
